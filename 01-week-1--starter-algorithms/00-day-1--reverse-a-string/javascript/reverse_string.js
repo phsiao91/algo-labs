@@ -1,5 +1,13 @@
 function reverseString(str) {
   // type your code here
+  // turn it into an array
+  const arr = str.split("")
+  // reverse array
+  const reversed = arr.reverse()
+  // turn in back into a string
+  const result = reversed.join("")
+
+  return result
 }
 
 if (require.main === module) {
